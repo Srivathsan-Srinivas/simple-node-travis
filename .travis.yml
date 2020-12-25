@@ -6,9 +6,6 @@ services:
   - docker
 
 
-before_install:
-  - cd simple-node-travis
-
 # Pre-testing installs
 install:
   - echo "nothing needs to be installed"
